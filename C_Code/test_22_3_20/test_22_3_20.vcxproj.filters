@@ -1,68 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="函数">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="头文件">
+    <Filter Include="Main">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="分支与循环">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="递归">
+      <UniqueIdentifier>{88ce7930-5546-400e-921e-515898b5cfdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="排序">
+      <UniqueIdentifier>{773d6c35-b509-42b2-b216-a058244e087e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数组">
+      <UniqueIdentifier>{84f5f506-e3e2-4f00-85e7-520f97920a1a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GetMax.c">
-      <Filter>源文件</Filter>
+      <Filter>分支与循环</Filter>
     </ClCompile>
     <ClCompile Include="Print3Int.c">
-      <Filter>源文件</Filter>
+      <Filter>分支与循环</Filter>
     </ClCompile>
     <ClCompile Include="main.c">
-      <Filter>头文件</Filter>
+      <Filter>Main</Filter>
     </ClCompile>
     <ClCompile Include="PrintMutiplesOf3.c">
-      <Filter>源文件</Filter>
+      <Filter>分支与循环</Filter>
     </ClCompile>
     <ClCompile Include="GetMaxValueOf10Int.c">
-      <Filter>源文件</Filter>
+      <Filter>分支与循环</Filter>
     </ClCompile>
     <ClCompile Include="PrimeNumber.c">
-      <Filter>源文件</Filter>
+      <Filter>分支与循环</Filter>
     </ClCompile>
     <ClCompile Include="LeapYear.c">
-      <Filter>源文件</Filter>
+      <Filter>分支与循环</Filter>
     </ClCompile>
     <ClCompile Include="FractionSum.c">
-      <Filter>源文件</Filter>
+      <Filter>分支与循环</Filter>
     </ClCompile>
     <ClCompile Include="GreatestCommonDivisor.c">
-      <Filter>源文件</Filter>
+      <Filter>分支与循环</Filter>
     </ClCompile>
     <ClCompile Include="DigitsAppearTimes.c">
-      <Filter>源文件</Filter>
+      <Filter>分支与循环</Filter>
     </ClCompile>
     <ClCompile Include="MultiTable.c">
-      <Filter>源文件</Filter>
+      <Filter>分支与循环</Filter>
     </ClCompile>
     <ClCompile Include="GuessNum.c">
-      <Filter>源文件</Filter>
+      <Filter>分支与循环</Filter>
     </ClCompile>
     <ClCompile Include="SearchInSortedAry.c">
-      <Filter>源文件</Filter>
+      <Filter>分支与循环</Filter>
+    </ClCompile>
+    <ClCompile Include="func.c">
+      <Filter>函数</Filter>
+    </ClCompile>
+    <ClCompile Include="recursion.c">
+      <Filter>递归</Filter>
+    </ClCompile>
+    <ClCompile Include="bubble.c">
+      <Filter>排序</Filter>
+    </ClCompile>
+    <ClCompile Include="array.c">
+      <Filter>数组</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
-      <Filter>头文件</Filter>
+      <Filter>Main</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt">
-      <Filter>资源文件</Filter>
+      <Filter>Main</Filter>
     </None>
   </ItemGroup>
 </Project>

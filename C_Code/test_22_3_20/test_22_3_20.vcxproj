@@ -24,6 +24,7 @@
     <ProjectGuid>{7b813b5f-b590-463d-8097-1ab6cb565274}</ProjectGuid>
     <RootNamespace>test22320</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>practices</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,8 +140,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="array.c" />
+    <ClCompile Include="bubble.c" />
     <ClCompile Include="DigitsAppearTimes.c" />
     <ClCompile Include="FractionSum.c" />
+    <ClCompile Include="func.c" />
     <ClCompile Include="GetMaxValueOf10Int.c" />
     <ClCompile Include="GreatestCommonDivisor.c" />
     <ClCompile Include="GuessNum.c" />
@@ -151,6 +155,7 @@
     <ClCompile Include="PrimeNumber.c" />
     <ClCompile Include="PrintMutiplesOf3.c" />
     <ClCompile Include="Print3Int.c" />
+    <ClCompile Include="recursion.c" />
     <ClCompile Include="SearchInSortedAry.c" />
   </ItemGroup>
   <ItemGroup>
