@@ -1,65 +1,65 @@
-#define _CRT_SECURE_NO_WARNINGS 1
+ï»¿#define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 #include <stdbool.h>
 
 /**
- * ·ÖÖ§ÓëÑ­»·
+ * åˆ†æ”¯ä¸å¾ªç¯
  */
 void GetMax();
 void Print3Int();
 void PrintMutiplesOf3();
 void GetMaxValueOf10Int();
 
-void PrimeNumber(); // ÖÊÊı
-void LeapYear(); // ÈòÄê
-void FractionSum(); // ·ÖÊıÇóºÍ
+void PrimeNumber(); // è´¨æ•°
+void LeapYear(); // é—°å¹´
+void FractionSum(); // åˆ†æ•°æ±‚å’Œ
 
-void GreatestCommonDivisor(); // ×î´ó¹«Ô¼Êı
+void GreatestCommonDivisor(); // æœ€å¤§å…¬çº¦æ•°
 
-void DigitsAppearTimes(); // Êı×Ö9ÔÚÕûÊıÖĞ³öÏÖµÄ´ÎÊı
+void DigitsAppearTimes(); // æ•°å­—9åœ¨æ•´æ•°ä¸­å‡ºç°çš„æ¬¡æ•°
 
-void MultiTable(); // 9*9³Ë·¨¿Ú¾÷±í
+void MultiTable(); // 9*9ä¹˜æ³•å£è¯€è¡¨
 
-void GuessNum(); // ²ÂÊı×ÖÓÎÏ·
-void SearchInSortedAry(); // ÓĞĞòÊı×éÖĞ²éÕÒÊı×Ö
+void GuessNum(); // çŒœæ•°å­—æ¸¸æˆ
+void SearchInSortedAry(); // æœ‰åºæ•°ç»„ä¸­æŸ¥æ‰¾æ•°å­—
 
 /**
- * º¯Êı
+ * å‡½æ•°
  */
 bool IsPrime(int n);
 void PrintPrime();
 
 bool IsLeapYear(int year);
 
-void PrintMultiTable(); // ³Ë·¨¿Ú¾÷±í 
+void PrintMultiTable(); // ä¹˜æ³•å£è¯€è¡¨ 
 
 
 /**
- * µİ¹é
+ * é€’å½’
  */
-void PrintInt(int n); // ´òÓ¡ÕûÊıÖĞµÄÃ¿¸öÊı×Ö
+void PrintInt(int n); // æ‰“å°æ•´æ•°ä¸­çš„æ¯ä¸ªæ•°å­—
 
-int FactorialNonRecursion(int n); // Çó½×²ã
+int FactorialNonRecursion(int n); // æ±‚é˜¶å±‚
 int FactorialRecursion(int n); 
 
-int Strlen(const char* str); // Çó×Ö·û´®³¤¶È
+int Strlen(const char* str); // æ±‚å­—ç¬¦ä¸²é•¿åº¦
 int StrlenRecursion(const char* str);
 
-void ReverseString(char* str); // ×Ö·û´®·´×ª
+void ReverseString(char* str); // å­—ç¬¦ä¸²åè½¬
 void ReverseStringRecursion(char* str);
 
 
-int DigitSum(int n); // Ê®½øÖÆÊı×ÖµÄÃ¿È¨Î»ºÍ
+int DigitSum(int n); // åè¿›åˆ¶æ•°å­—çš„æ¯æƒä½å’Œ
 int DigitSumRecursion(int n);
 
 
-double MyPowRecursion(int n, int k); // nµÄk´Î·½
+double MyPowRecursion(int n, int k); // nçš„kæ¬¡æ–¹
 
 int Fibonacci(int n); // Fibonacci
 int FibonacciRecursion(int n);
 
 /**
- * ÅÅĞò
+ * æ’åº
  */
 
 void PrintArray(int ary[], int size);
@@ -68,12 +68,39 @@ void BubbleSort(int ary[], int size);
 
 
 /**
- * Êı×é
+ * æ•°ç»„
  */
 
 void InitAry(int ary[], int size);
 void PrintAry(int ary[], int size);
 void ReverseAry(int ary[], int size);
 
+
+/**
+ * æ“ä½œç¬¦
+ */
+
+void func();
+int DiffBitCount(int m, int n); // ä¸¤ä¸ªæ•´æ•°çš„äºŒè¿›åˆ¶ä¸­ä¸åŒä½çš„ä¸ªæ•°
+void BinaryPrint(size_t n); // æ‰“å°äºŒè¿›åˆ¶æ•°çš„å¥‡æ•°ä½å’Œå¶æ•°ä½
+
+int CountOneBit(int n); // äºŒè¿›åˆ¶ä¸­1çš„ä¸ªæ•°
+
+void MySwap(int* m, int* n); // ä¸åˆ›å»ºå˜é‡äº¤æ¢ä¸¤æ•°
+
+
+/**
+ * æŒ‡é’ˆ
+ */
+int SequenceSum(int a, int n); // æ•°åˆ—å‰né¡¹å’Œ
+
+void PrintDaffodils(); // æ‰“å°æ°´ä»™èŠ±æ•°
+
+void PrintDiamond(); // æ‰“å°è±å½¢
+
+/**
+ * ç»ƒä¹ é¢˜
+ */
+int DrinkSoda(int money); // å–æ±½æ°´é—®é¢˜
 
 

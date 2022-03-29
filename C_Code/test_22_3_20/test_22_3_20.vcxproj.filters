@@ -22,6 +22,15 @@
     <Filter Include="数组">
       <UniqueIdentifier>{84f5f506-e3e2-4f00-85e7-520f97920a1a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="操作符">
+      <UniqueIdentifier>{ac889e59-e5c7-4a78-9e10-f5889d567872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="指针">
+      <UniqueIdentifier>{5580f8a2-85e0-455c-81f1-a7c7a9d68500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="编程题">
+      <UniqueIdentifier>{1ac56c73-728e-400b-ac68-1b1089907ea9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GetMax.c">
@@ -74,6 +83,15 @@
     </ClCompile>
     <ClCompile Include="array.c">
       <Filter>数组</Filter>
+    </ClCompile>
+    <ClCompile Include="operator.c">
+      <Filter>操作符</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer.c">
+      <Filter>指针</Filter>
+    </ClCompile>
+    <ClCompile Include="pat.c">
+      <Filter>编程题</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
