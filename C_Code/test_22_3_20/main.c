@@ -2,9 +2,30 @@
 
 //#define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
+
 int main(int argc, char* argv[])
 {
-    printf("%d\n", DrinkSoda(20));
+    int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+    adjust_arr(arr, 10);
+    for (int i = 0; i < 10; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+    
+
+	return 0;
+}
+
+
+
+int main2(int argc, char* argv[])
+{
+    /*
+    * ¿âº¯Êý
+    */
+    char arr[20] = { 0 };
+    printf("%s\n", my_strcpy(arr, "hello"));
+    
 	return 0;
 }
 
@@ -20,6 +41,8 @@ int main1(int argc, char* argv[])
     PrintDaffodils();
 
     PrintDiamond();
+
+    printf("%d\n", DrinkSoda(20));
 	return 0;
 }
 

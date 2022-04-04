@@ -1,6 +1,9 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
-#include <stdbool.h>
+#include <stdbool.h> // bool
+#include <assert.h>  // assert
+
+
 
 /**
  * 分支与循环
@@ -102,5 +105,16 @@ void PrintDiamond(); // 打印菱形
  * 练习题
  */
 int DrinkSoda(int money); // 喝汽水问题
+
+
+
+void adjust_arr(int arr[], int sz); // 调整数组使所有奇数在偶数之前
+
+
+/*
+库函数模拟实现
+*/
+size_t my_strlen(const char* str);
+char* my_strcpy(char* destination, const char* source);
 
 

@@ -152,6 +152,7 @@
     <ClCompile Include="main.c" />
     <ClCompile Include="GetMax.c" />
     <ClCompile Include="MultiTable.c" />
+    <ClCompile Include="mystr.c" />
     <ClCompile Include="operator.c" />
     <ClCompile Include="pat.c" />
     <ClCompile Include="pointer.c" />

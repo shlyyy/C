@@ -5,7 +5,7 @@ int i;
 void func()
 {
 	i--;
-	if (i > sizeof(i))
+	if (i > sizeof(i)) // int与unsigned int比较 转换为unsigned int比较
 	{
 		printf(">\n"); // 打印这个 sizeof返回值为无符号整数
 	}
@@ -24,6 +24,19 @@ void func()
 1999 2299
 输出例子:7
 */
+int get_diff_count(int m, int n)
+{
+	int count = 0;
+	int i = 0;
+	for (i = 0; i < 32; i++)
+	{
+		if (((m >> i) & 1) != ((n >> i) & 1))
+		{
+			++count;
+		}
+	}
+	return count;
+}
 int DiffBitCount(int m, int n)
 {
 	int count = 0;
