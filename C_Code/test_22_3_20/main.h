@@ -118,3 +118,7 @@ size_t my_strlen(const char* str);
 char* my_strcpy(char* destination, const char* source);
 
 
+/*
+计算器
+*/
+void Calc();

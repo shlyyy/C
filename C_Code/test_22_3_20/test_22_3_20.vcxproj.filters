@@ -34,6 +34,9 @@
     <Filter Include="库函数模拟实现">
       <UniqueIdentifier>{d8ea9dc0-ea6a-47fe-85a5-aacf502eff17}</UniqueIdentifier>
     </Filter>
+    <Filter Include="计算器">
+      <UniqueIdentifier>{1b449497-fb97-4dc0-b3ef-d0b0797acc4f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GetMax.c">
@@ -98,6 +101,9 @@
     </ClCompile>
     <ClCompile Include="mystr.c">
       <Filter>库函数模拟实现</Filter>
+    </ClCompile>
+    <ClCompile Include="calc.c">
+      <Filter>计算器</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

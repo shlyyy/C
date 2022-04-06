@@ -142,6 +142,7 @@
   <ItemGroup>
     <ClCompile Include="array.c" />
     <ClCompile Include="bubble.c" />
+    <ClCompile Include="calc.c" />
     <ClCompile Include="DigitsAppearTimes.c" />
     <ClCompile Include="FractionSum.c" />
     <ClCompile Include="func.c" />
